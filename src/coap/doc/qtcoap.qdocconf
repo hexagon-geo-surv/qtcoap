@@ -42,3 +42,6 @@ depends += qtcore qtdoc qtnetwork qtqml qmake qtcmake
 
 navigation.landingpage = "Qt CoAP"
 navigation.cppclassespage = "Qt CoAP C++ Classes"
+
+# Allow zero warnings when testing documentation in CI
+warninglimit = 0
