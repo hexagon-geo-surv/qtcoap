@@ -25,7 +25,7 @@ Q_DECLARE_LOGGING_CATEGORY(lcCoapConnection)
 
 namespace QtCoap
 {
-    Q_COAP_EXPORT Q_NAMESPACE
+    Q_NAMESPACE_EXPORT(Q_COAP_EXPORT)
 
     enum class ResponseCode : quint8 {
         EmptyMessage = 0x00,
