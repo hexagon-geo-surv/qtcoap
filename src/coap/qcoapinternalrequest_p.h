@@ -6,9 +6,9 @@
 #define QCOAPINTERNALREQUEST_H
 
 #include <private/qcoapinternalmessage_p.h>
+#include <private/qcoapnamespace_p.h>
 
 #include <QtCoap/qcoapglobal.h>
-#include <QtCoap/qcoapnamespace.h>
 #include <private/qcoapconnection_p.h>
 
 #include <QtCore/qglobal.h>

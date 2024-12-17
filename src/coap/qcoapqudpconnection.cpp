@@ -3,6 +3,7 @@
 // SPDX-License-Identifier: LicenseRef-Qt-Commercial OR GPL-3.0-only
 
 #include "qcoapqudpconnection_p.h"
+#include <private/qcoapnamespace_p.h>
 
 #include <QtCore/qloggingcategory.h>
 #include <QtNetwork/qnetworkdatagram.h>

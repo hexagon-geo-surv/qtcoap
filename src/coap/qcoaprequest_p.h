@@ -5,7 +5,7 @@
 #ifndef QCOAPREQUEST_P_H
 #define QCOAPREQUEST_P_H
 
-#include <QtCoap/qcoapnamespace.h>
+#include <private/qcoapnamespace_p.h>
 #include <QtCoap/qcoaprequest.h>
 #include <private/qcoapmessage_p.h>
 
