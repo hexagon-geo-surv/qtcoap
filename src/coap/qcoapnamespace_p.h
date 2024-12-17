@@ -6,6 +6,8 @@
 
 #include "qcoapnamespace.h"
 #include "private/qglobal_p.h"
+#include <QtCore/qloggingcategory.h>
+
 
 //
 //  W A R N I N G
@@ -19,6 +21,9 @@
 //
 
 QT_BEGIN_NAMESPACE
+
+Q_DECLARE_LOGGING_CATEGORY(lcCoapExchange)
+Q_DECLARE_LOGGING_CATEGORY(lcCoapConnection)
 
 namespace QtCoap
 {
